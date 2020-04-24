@@ -1,0 +1,11 @@
+.presentation {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation p{
+    text-align: justify;
+    font-size: 16pt;
+}

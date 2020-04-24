@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color: #000;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profiles a {
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18pt;
+}
+
+.profiles a:hover {
+    font-size: 20pt;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.welcome img {
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.welcome span{
+    color: #FFF;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

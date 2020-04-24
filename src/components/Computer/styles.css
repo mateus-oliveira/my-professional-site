@@ -1,0 +1,32 @@
+.computer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.computer  img{
+    width: 100%;
+}
+
+.computer div{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.computer h1{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-bottom: 30px;
+}
+
+.computer h3{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15pt;
+}
