@@ -1,11 +1,65 @@
 .presentation {
     padding: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .presentation p{
     text-align: justify;
     font-size: 16pt;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: #FFF;
+    margin-bottom: 50px;
+}
+
+.details{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: #FFF;
+    margin-bottom: 50px;
+
+}
+
+.profesional {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-picture {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.profile-picture img{
+    width: 40%;
+    height: 40%;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+ul{
+    padding:10px;
+    margin-left:30px;
+}
+
+ul h2{
+    padding:10px;
+    margin-bottom:15px;
+}
+
+li{
+    margin-left:30px;
 }

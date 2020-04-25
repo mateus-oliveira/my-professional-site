@@ -13,7 +13,6 @@ export default class Home extends Component {
             <div className="container">
                 <Computer />
                 <Presentation />
-                <h1>My skills</h1>
                 <Skills />
             </div>
         );

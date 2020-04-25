@@ -1,4 +1,6 @@
 header {
+    position: sticky;
+    top: 0px;
     display: flex;
     width: 100%;
     background-color: #000;
@@ -6,26 +8,27 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .profiles {
     display: flex;
     flex-direction: row;
-    width: 100px;
+    width: 160px;
     justify-content: space-between;
     align-items: center;
 }
 
 .profiles a {
-    text-align: center;
-    color: #FFF;
-    cursor: pointer;
-    font-size: 18pt;
-}
-
-.profiles a:hover {
-    font-size: 20pt;
+    height: 50px;
+    width: 50px;
+    background-color: #1C1C1C;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .welcome {
