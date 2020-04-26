@@ -27,12 +27,10 @@ export default class Presentation extends Component {
                 <div className="profesional">
                     <ul>
                         <h2>Languages and platforms</h2>
-                        <li>HTML, CSS e Javascript</li>
-                        <li>React</li>
-                        <ul>
-                            <li>ReactJS</li>
-                            <li>React Native</li>
-                        </ul>
+                        <li>HTML5, CSS3 e Javascript</li>
+                        <li>ReactJS</li>
+                        <li>React Native</li>
+                        <ul><li>EXPO</li></ul>
                         <li>Angular</li>
                         <ul><li>Type Script</li></ul>
                         <li>NodeJS</li>
@@ -61,13 +59,17 @@ export default class Presentation extends Component {
                         <h2>Other tools</h2>
                         <li>VSCode</li>
                         <li>PyCharm</li>
-                        <li>AndroidStudio</li>
+                        <li>Android Studio</li>
                         <li>XCode</li>
+                        <li>Sublime Text</li>
+                        <li>Git</li>
                         <li>Firebase</li>
-                        <li>EXPO</li>
                         <li>Workbench</li>
                         <li>Robo 3T</li>
-                        <li>Insomnia</li>                        
+                        <li>Insomnia</li>  
+                        <li>Bitbucket</li>  
+                        <li>Trello</li>
+                        <li>SCRUM</li>                          
                     </ul>
                 </div>
             </div>

@@ -44,11 +44,12 @@ header {
     width: 40px;
 }
 
-.welcome span{
+.home{
     color: #FFF;
     font-size: 18pt;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;

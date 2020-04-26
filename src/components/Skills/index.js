@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
+
 import './styles.css';
 
 import angular from '../../assets/angular.png';
@@ -29,12 +31,24 @@ const name_languages = [
     'MongoDB',
 ];
 
+const routes = [
+    '/html-css-js',
+    '/angular',
+    '/',
+    '/',
+    '/',
+    '/',
+    '/',
+]
+
 export default class Skills extends Component {
     render_skills (){
         return languages.map((item, index) => {
             return (
                 <div key={index} className="languages">    
-                    <img src={item} className='logos' alt={name_languages[index]}/>
+                    <Link to={routes[index]}>
+                        <img src={item} className='logos' alt={name_languages[index]}/>
+                    </Link>
                 </div>
             )
         })

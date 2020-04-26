@@ -6,7 +6,7 @@ export default class Computer extends Component {
     render() {
         return (
             <div className="computer">
-                <img src={computer}/>
+                <img src={computer} alt=''/>
             </div>
         );
     }

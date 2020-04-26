@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 import { GoMarkGithub } from 'react-icons/go';
 import { FiInstagram, FiLinkedin } from 'react-icons/fi';
@@ -10,16 +11,28 @@ export default class Header extends Component {
         return (
             <header>
                 <div className="welcome">
-                    <span>Welcome!</span>
+                    <Link className="home" to='/'>Welcome!</Link>
                 </div>
                 <div className="profiles">
-                    <a href='https://github.com/mateus-oliveira' target="_blank">
+                    <a 
+                        href='https://github.com/mateus-oliveira' 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <GoMarkGithub color="#FFF" size={22}/>
                     </a>
-                    <a href='https://www.instagram.com/mateus_if/' target="_blank">
+                    <a 
+                        href='https://www.instagram.com/mateus_if/' 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <FiInstagram color="#FFF" size={22}/>
                     </a>
-                    <a href='https://www.linkedin.com/in/mateus-alves-a60043168/' target="_blank">
+                    <a 
+                        href='https://www.linkedin.com/in/mateus-alves-a60043168/' 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <FiLinkedin color="#FFF" size={22}/>
                     </a>
                 </div>
