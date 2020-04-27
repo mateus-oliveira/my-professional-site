@@ -24,7 +24,7 @@ export default class HTML_CSS_JS extends Component {
                     <div id="num">
                         <span>{index+1}</span>
                     </div>
-                    <div className="item">
+                    <div id="title">
                         <span>{item.title}</span>
                     </div>
                     <div className="item">

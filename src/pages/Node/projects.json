@@ -5,8 +5,13 @@
         "link": "https://hubbi.app/"
     },
     {
-        "title": "My First Angular App",
-        "description": "A simple application for introduces to the essentials of Angular by create a simple e-commerce site with a catalog, shopping cart, and check-out form.",
-        "link": "https://github.com/mateus-oliveira/first-angular-app"
+        "title": "Semana Omnistack 11",
+        "description": "A simple API for the application Be The Hero created at Rocketseat's workshop.",
+        "link": "https://github.com/mateus-oliveira/omnistack11/tree/master/backend"
+    },
+    {
+        "title": "Planets",
+        "description": "A simple API for register planets data on MongoDB with NodeJS.",
+        "link": "https://github.com/mateus-oliveira/planets"
     }
 ]
