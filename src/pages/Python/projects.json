@@ -1,12 +1,48 @@
 [
     {
-        "title": "Hubbi",
-        "description": "Automotive parts market place.",
-        "link": "https://hubbi.app/"
+        "title": "Quimanima - Package",
+        "description": "Python turtle animations for high school chemistry.",
+        "link": "https://github.com/quimanima/quimanima/"
     },
     {
-        "title": "My First Angular App",
-        "description": "A simple application for introduces to the essentials of Angular by create a simple e-commerce site with a catalog, shopping cart, and check-out form.",
-        "link": "https://github.com/mateus-oliveira/first-angular-app"
+        "title": "Quimanima - Sphinx Documentation",
+        "description": "Documentation with Sphinx for Quimanima.",
+        "link": "https://github.com/quimanima/quimanima-sphinx"
+    },
+    {
+        "title": "Quimanima - MkDocs Documentation",
+        "description": "Documentation with MkDocs for Quimanima.",
+        "link": "https://github.com/quimanima/quimanima-mkdocs"
+    },
+    {
+        "title": "Quimanima - PDF Documentation",
+        "description": "Documentation for Quimanima.",
+        "link": "https://drive.google.com/file/d/1bwkH89lka2IpBHqreC98ZrFlF3p4MGwQ/view?usp=sharing"
+    },
+    {
+        "title": "Send a Poem - API",
+        "description": "Backend for the Send a Poem application with Flask and access MySQL database.",
+        "link": "https://github.com/mateus-oliveira/sendapoem-api"
+    },
+    {
+        "title": "Python Databases Connections",
+        "description": "Two scripts to show the connection with Python and MongoDB or MySQL.",
+        "link": "https://github.com/mateus-oliveira/python-databases-connection"
+    },
+    {
+        "title": "Python turtle (2D) and vpython (3D) animations",
+        "description": "2D and 3D animations made with Turtle and VPython respectively in a mini course at Secitex 2019.",
+        "link": "https://github.com/mateus-oliveira/secitex-2019"
+    },
+    {
+        "title": "3D animations made with the VPython package",
+        "description": "Although simple, they perfectly approach concepts of object-oriented programming. Very good for those who are starting in programming and applied linear algebra.",
+        "link": "https://github.com/mateus-oliveira/python-vpython"
+    },
+    {
+        "title": "Several 2D animations made with the Python turtle module.",
+        "description": "Although simple, they perfectly approach concepts of object-oriented programming. Very good for those who are starting in programming.",
+        "link": "https://github.com/mateus-oliveira/python-turtle"
     }
+
 ]

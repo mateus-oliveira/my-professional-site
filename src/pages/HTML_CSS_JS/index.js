@@ -27,10 +27,10 @@ export default class HTML_CSS_JS extends Component {
                     <div id="title">
                         <span>{item.title}</span>
                     </div>
-                    <div className="item">
+                    <div id="description">
                         <span>{item.description}</span>
                     </div>
-                    <div className="item">
+                    <div id="link">
                         <a  
                             href={item.link} 
                             target="_blank"

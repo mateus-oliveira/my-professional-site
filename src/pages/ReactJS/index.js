@@ -23,10 +23,10 @@ export default class ReactJS extends Component {
                     <div id="title">
                         <span>{item.title}</span>
                     </div>
-                    <div className="item">
+                    <div id="description">
                         <span>{item.description}</span>
                     </div>
-                    <div className="item">
+                    <div id="link">
                         <a  
                             href={item.link} 
                             target="_blank"
@@ -45,12 +45,13 @@ export default class ReactJS extends Component {
                 <div className="experience">
                     <h1>Resume</h1>
                     <p>
-                        My experience with Angular started from a demand that arose in the 
-                        company where I work, because the front end of the Hubbi system was 
-                        developed in Angular. With that, I had to know the structure of 
-                        Angular and learn Type Script. <br/>
-                        I also developed other applications to serve as an example. <br/>
-                        See the table below.
+                        I got to know ReactJS and React Native through materials made 
+                        available by Rocketseat. Shortly afterwards I got a job at the 
+                        startup Hubbi as a full stack developer, there we used React Native. 
+                        We are currently developing two applications and also a web version 
+                        with ReactJS.<br/>
+                        In addition, I also developed other applications with ReactJS and
+                        React Native, including this website. Below are some examples.
                     </p>
                     <h1>My projects</h1>
                     <div className="projects">

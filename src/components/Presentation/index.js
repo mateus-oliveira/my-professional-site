@@ -25,7 +25,7 @@ export default class Presentation extends Component {
                     <h2>Mateus Alves de Oliveira</h2>
                     <h3>Full stack developer</h3>
                     <a 
-                        href='https://drive.google.com/file/d/1DjmV35TGIcu_EQrZjcSUN1siR6FqE6x9/view?usp=sharing'
+                        href='https://drive.google.com/open?id=1npjs5eXFs1xyohcu9IHrn03y6AxGDopL'
                         target='_blank'
                         rel="noopener noreferrer"
                     >

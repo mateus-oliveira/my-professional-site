@@ -1,12 +1,22 @@
 [
     {
-        "title": "Hubbi",
-        "description": "Automotive parts market place.",
-        "link": "https://hubbi.app/"
+        "title": "Semana Omnistack 11 - Web",
+        "description": "Frontend with ReactJS for the Be The Hero application created at Rocketseat's workshop.",
+        "link": "https://github.com/mateus-oliveira/omnistack11/tree/master/frontend"
     },
     {
-        "title": "My First Angular App",
-        "description": "A simple application for introduces to the essentials of Angular by create a simple e-commerce site with a catalog, shopping cart, and check-out form.",
-        "link": "https://github.com/mateus-oliveira/first-angular-app"
+        "title": "Semana Omnistack 11 - Mobile",
+        "description": "Mobile with React Native and EXPO for the Be The Hero application created at Rocketseat's workshop.",
+        "link": "https://github.com/mateus-oliveira/omnistack11/tree/master/mobile"
+    },
+    {
+        "title": "Send a Poem",
+        "description": "Mobile with React Native and EXPO for the Send a Poem application.",
+        "link": "https://github.com/mateus-oliveira/sendapoem-app"
+    },
+    {
+        "title": "My professional site",
+        "description": "This site when you are, for show my skills and experiences",
+        "link": "https://github.com/mateus-oliveira/my-professional-site"
     }
 ]

@@ -23,10 +23,10 @@ export default class MongoDB extends Component {
                     <div id="title">
                         <span>{item.title}</span>
                     </div>
-                    <div className="item">
+                    <div id="description">
                         <span>{item.description}</span>
                     </div>
-                    <div className="item">
+                    <div id="link">
                         <a  
                             href={item.link} 
                             target="_blank"

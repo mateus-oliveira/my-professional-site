@@ -73,12 +73,20 @@ h1 {
 #title {
     width: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 5px;
 }
 
-.item {
+#description {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+#link {
     width: 40%;
     display: flex;
     justify-content: center;
