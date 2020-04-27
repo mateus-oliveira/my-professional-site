@@ -50,6 +50,12 @@
     margin-bottom: 30px;
 }
 
+.profile-picture a{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+}
+
 ul{
     padding:10px;
     margin-left:30px;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {FiFileText} from 'react-icons/fi';
 
 import './styles.css';
 
@@ -23,6 +24,14 @@ export default class Presentation extends Component {
                     <img src={mateus} alt="Mateus"/>
                     <h2>Mateus Alves de Oliveira</h2>
                     <h3>Full stack developer</h3>
+                    <a 
+                        href='https://drive.google.com/file/d/1DjmV35TGIcu_EQrZjcSUN1siR6FqE6x9/view?usp=sharing'
+                        target='_blank'
+                        rel="noopener noreferrer"
+                    >
+                        <FiFileText size={22} />
+                        <h3>Currículo</h3>
+                    </a>
                 </div>
                 <div className="profesional">
                     <ul>
