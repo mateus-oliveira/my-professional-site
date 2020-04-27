@@ -34,11 +34,11 @@ const name_languages = [
 const routes = [
     '/html-css-js',
     '/angular',
-    '/',
-    '/',
-    '/',
-    '/',
-    '/',
+    '/react',
+    '/node',
+    '/python',
+    '/mysql',
+    '/mongodb',
 ]
 
 export default class Skills extends Component {
@@ -47,7 +47,11 @@ export default class Skills extends Component {
             return (
                 <div key={index} className="languages">    
                     <Link to={routes[index]}>
-                        <img src={item} className='logos' alt={name_languages[index]}/>
+                        <img 
+                            src={item} 
+                            className='logos' 
+                            alt={name_languages[index]}
+                        />
                     </Link>
                 </div>
             )
@@ -56,7 +60,7 @@ export default class Skills extends Component {
     render() {
         return (    
             <div className='skills'>
-                <h1>My skills</h1>
+                <h1>My skills - click any button</h1>
                 <div className="images">
                     {this.render_skills()}
                 </div>

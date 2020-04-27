@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Connection with MySQL-Connector-Python",
+        "description": "Script to show the connection with Python and MySQL with MySQL-Connector-Python.",
+        "link": "https://github.com/mateus-oliveira/python-databases-connection/blob/master/my_sql.py"
+    },
+    {
+        "title": "Send a Poem",
+        "description": "API of the Send a Poem application, with Flask.",
+        "link": "https://github.com/mateus-oliveira/sendapoem-api"
+    },
+    {
+        "title": "Semana Omnistack 11",
+        "description": "Rocketseat's workshop about the stack Node, ReactJS and React Native.",
+        "link": "https://github.com/mateus-oliveira/omnistack11/tree/master/backend"
+    }
+]

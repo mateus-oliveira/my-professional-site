@@ -8,15 +8,11 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Skills from '../../components/Skills';
 
-export default class HTML_CSS_JS extends Component {
-    constructor (props){
-        super(props);        
-        this.state = {
-            history: this.props.history,
-        };
+export default class MongoDB extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
     }
-    componentDidMount() { window.scrollTo(0, 0) }
-
+    
     renderTable = () => {
         return projects.map((item, index)=>{
             return (
@@ -49,10 +45,11 @@ export default class HTML_CSS_JS extends Component {
                 <div className="experience">
                     <h1>Resume</h1>
                     <p>
-                        My experience with pure HTML, CSS and Javascript started at school, 
-                        I have some projects as an example that I developed as a student and 
-                        are listed in the table below. Nowadays, I work with tools like 
-                        Angular and React that require knowledge of HTML, CSS and Javascript.
+                        My experience with MongoDB started when I began the studies with 
+                        NodeJS, in which I used the Mongoose library and the Robo 3T 
+                        software. I currently use MongoDB for route logs in the Fretec 
+                        application API. I also use Mongo DB in the Hubbi application.<br/>
+                        Below are some examples of using MongoDB.
                     </p>
                     <h1>My projects</h1>
                     <div className="projects">

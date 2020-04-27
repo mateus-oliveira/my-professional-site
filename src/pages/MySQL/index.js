@@ -8,15 +8,11 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Skills from '../../components/Skills';
 
-export default class HTML_CSS_JS extends Component {
-    constructor (props){
-        super(props);        
-        this.state = {
-            history: this.props.history,
-        };
+export default class MySQL extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
     }
-    componentDidMount() { window.scrollTo(0, 0) }
-
+    
     renderTable = () => {
         return projects.map((item, index)=>{
             return (
@@ -49,10 +45,14 @@ export default class HTML_CSS_JS extends Component {
                 <div className="experience">
                     <h1>Resume</h1>
                     <p>
-                        My experience with pure HTML, CSS and Javascript started at school, 
-                        I have some projects as an example that I developed as a student and 
-                        are listed in the table below. Nowadays, I work with tools like 
-                        Angular and React that require knowledge of HTML, CSS and Javascript.
+                        I learned SQL in the technical course with another relational bank, 
+                        however, my experience with MySQL started in my first professional 
+                        experience, in which I developed an API with NodeJS accessing the 
+                        MySQL database, I worked deeply on the conceptual model and made 
+                        use of ORM Sequelize and Workbench software. Currently, I use MySQL 
+                        for almost all applications I develop, 
+                        as I appreciate its ease of use and performance.<br />
+                        Below are some examples of using MySQL.
                     </p>
                     <h1>My projects</h1>
                     <div className="projects">

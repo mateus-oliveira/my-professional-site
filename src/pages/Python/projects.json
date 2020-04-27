@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Hubbi",
+        "description": "Automotive parts market place.",
+        "link": "https://hubbi.app/"
+    },
+    {
+        "title": "My First Angular App",
+        "description": "A simple application for introduces to the essentials of Angular by create a simple e-commerce site with a catalog, shopping cart, and check-out form.",
+        "link": "https://github.com/mateus-oliveira/first-angular-app"
+    }
+]

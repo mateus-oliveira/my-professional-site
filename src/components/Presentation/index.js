@@ -45,13 +45,15 @@ export default class Presentation extends Component {
                         </ul>
                         <li>MySQL</li>
                         <ul>
-                            <li>Flask-mysqldb (Python)</li>
-                            <li>Sequelize (NodeJS)</li>
+                            <li>SQL</li>
+                            <li>mysql-connector-python (Python)</li>
+                            <li>flask-mysqldb (Python)</li>
+                            <li>sequelize (NodeJS)</li>
                         </ul>
                         <li>MongoDB</li>
                         <ul>
-                            <li>PyMongo (Python)</li>
-                            <li>Mongoose (NodeJS)</li>
+                            <li>pymongo (Python)</li>
+                            <li>mongoose (NodeJS)</li>
                         </ul>
                     </ul>
 
