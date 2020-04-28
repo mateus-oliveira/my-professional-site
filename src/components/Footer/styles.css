@@ -46,7 +46,7 @@ footer {
     align-items: center;
 }
 
-.profile_apps{
+.contact_form{
     width: 50%;
     display: flex;
     justify-content: center;
@@ -54,27 +54,27 @@ footer {
     padding: 20px;
 }
 
-.profile_apps form{
+.contact_form form{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.profile_apps form h2{
+.contact_form form h2{
     font-weight: bold;
     color: #FFF;
     margin-bottom: 10px;
 }
 
-.profile_apps form input{
+.contact_form form input{
     margin-bottom: 10px;
     font-weight: bold;
     padding: 10px;
     border-radius: 8px;
 }
 
-.profile_apps form textarea{
+.contact_form form textarea{
     margin-bottom: 10px;
     font-weight: bold;
     padding: 10px;
@@ -105,4 +105,34 @@ footer {
     color:#FFF;
     font-size:22pt;
     margin-right: 10px;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 900px){
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .contact {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .property{
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    
+    .contact_form{
+        width: 100%;
+        padding: 30px;
+    }
 }

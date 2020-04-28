@@ -50,7 +50,7 @@ export default class Footer extends Component {
                         <h2>matews5522@gmail.com</h2>
                     </div>
                 </div>
-                <div className="profile_apps">
+                <div className="contact_form">
                     <form onSubmit={this.handleSubmit} method="POST">
                         <h2>Contact me</h2>
                         <input 

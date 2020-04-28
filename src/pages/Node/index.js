@@ -4,6 +4,7 @@ import './styles.css';
 
 import projects from './projects.json';
 
+import Projects from '../../components/Projects';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Skills from '../../components/Skills';
@@ -52,10 +53,7 @@ export default class Node extends Component {
                         Below are some examples of implementing Rest API with NodeJS.
                     </p>
                     <h1>My projects</h1>
-                    <div className="projects">
-                        <div className="header"></div>
-                        {this.renderTable()}
-                    </div>
+                    <Projects projects={projects} />
                 </div>
                 <Skills />
                 <Footer />

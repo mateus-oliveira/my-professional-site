@@ -4,6 +4,7 @@ import './styles.css';
 
 import projects from './projects.json';
 
+import Projects from '../../components/Projects';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Skills from '../../components/Skills';
@@ -55,10 +56,7 @@ export default class HTML_CSS_JS extends Component {
                         Angular and React that require knowledge of HTML, CSS and Javascript.
                     </p>
                     <h1>My projects</h1>
-                    <div className="projects">
-                        <div className="header"></div>
-                        {this.renderTable()}
-                    </div>
+                    <Projects projects={projects} />
                 </div>
                 <Skills />
                 <Footer />
