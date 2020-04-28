@@ -20,6 +20,8 @@ export default class Footer extends Component {
 
         const { name, email, message } = this.state
 
+        if (!name || !email || !message) return;
+
         let templateParams = {
             from_name: email,
             to_name: 'matews5522@gmail.com',
