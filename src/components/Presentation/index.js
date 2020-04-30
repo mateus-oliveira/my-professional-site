@@ -49,8 +49,8 @@ export default class Presentation extends Component {
                             <li>Flask</li>
                             <li>Turtle</li>
                             <li>VPython</li>
-                            <li>Sphinx</li>
                             <li>MkDocs</li>
+                            <li>Sphinx</li>
                         </ul>
                         <li>MySQL</li>
                         <ul>

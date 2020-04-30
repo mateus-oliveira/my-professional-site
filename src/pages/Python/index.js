@@ -51,11 +51,11 @@ export default class Python extends Component {
                         I haven't gotten to work professionally yet, however, 
                         I've developed many things in an academic way, including a 
                         package called Quimanima and I'm implementing all of its 
-                        documentation with Sphinx. In addition, I also know how to make 
-                        documentation using MkDocs with Markdown. 
+                        documentation with MkDocs with Markdown. In addition, I also know how to make 
+                        documentation using Sphinx. 
                         Eventually I present short courses on animations with the libraries
-                         Turtle and VPython. My next goal is to present something about 
-                         Rest API with Flask.<br/>
+                        Turtle and VPython. My next goal is to present something about 
+                        Rest API with Flask.<br/>
                         I always try to update myself in Python, currently, 
                         I am studying Flask and Django.<br/>
                         Below are some of my projects with Python.
