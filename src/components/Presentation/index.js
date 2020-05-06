@@ -50,7 +50,6 @@ export default class Presentation extends Component {
                             <li>Turtle</li>
                             <li>VPython</li>
                             <li>MkDocs</li>
-                            <li>Sphinx</li>
                         </ul>
                         <li>MySQL</li>
                         <ul>

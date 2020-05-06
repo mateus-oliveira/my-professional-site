@@ -5,11 +5,6 @@
         "link": "https://github.com/quimanima/quimanima/"
     },
     {
-        "title": "Quimanima - Sphinx Documentation",
-        "description": "Documentation with Sphinx for Quimanima.",
-        "link": "https://github.com/quimanima/quimanima-sphinx"
-    },
-    {
         "title": "Quimanima - MkDocs Documentation",
         "description": "Documentation with MkDocs for Quimanima.",
         "link": "https://github.com/quimanima/quimanima-mkdocs"

@@ -51,8 +51,7 @@ export default class Python extends Component {
                         I haven't gotten to work professionally yet, however, 
                         I've developed many things in an academic way, including a 
                         package called Quimanima and I'm implementing all of its 
-                        documentation with MkDocs with Markdown. In addition, I also know how to make 
-                        documentation using Sphinx. 
+                        documentation with MkDocs with Markdown.
                         Eventually I present short courses on animations with the libraries
                         Turtle and VPython. My next goal is to present something about 
                         Rest API with Flask.<br/>
