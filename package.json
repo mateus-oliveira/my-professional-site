@@ -16,6 +16,7 @@
         "react-scripts": "3.4.1"
     },
     "scripts": {
+        "preinstall": "npx npm-force-resolutions",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
@@ -36,5 +37,8 @@
             "last 1 safari version"
         ]
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "resolutions": {
+        "yargs-parser": "^13.1.2"
+    }
 }
