@@ -46,6 +46,7 @@ export default class Presentation extends Component {
                         <ul><li>Express</li></ul>
                         <li>Python</li>
                         <ul>
+                            <li>Django</li>
                             <li>Flask</li>
                             <li>Turtle</li>
                             <li>VPython</li>

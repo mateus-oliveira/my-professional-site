@@ -20,6 +20,11 @@
         "link": "https://github.com/mateus-oliveira/sendapoem-api"
     },
     {
+        "title": "Gerenciador de Tarefas",
+        "description": "A simple manage tools with Django",
+        "link": "https://github.com/mateus-oliveira/gerenciador-de-tarefas"
+    },
+    {
         "title": "Python Databases Connections",
         "description": "Two scripts to show the connection with Python and MongoDB or MySQL.",
         "link": "https://github.com/mateus-oliveira/python-databases-connection"
