@@ -12,11 +12,11 @@ export default class Presentation extends Component {
             <h1>Apresentação</h1>
             <p>
                 Olá! Meu nome é Mateus e eu sou desenvolvedor web fullstack.
-                Na minha vida acadêmica, estou concluindo o curso superior em Tecnologia da Informação na UFRN.
+                Estou concluindo o curso superior em Tecnologia da Informação na UFRN.
                 Também sou Técnico em Informática pelo IFRN no qual me formei em 2017,
                 onde tive meu primeiro contato com desenvolvimento de software.
-                Há 3 anos venho trabalhando com Python no backend e Javascript no fronted web.
-                Sou também um entusiasta do mundo de desenvolvimento de jogos digitais, espeicalmente com Unity e C#.
+                Há 3 anos venho trabalhando com Python no backend e Javascript no frontend web.
+                Sou também um entusiasta do mundo de desenvolvimento de jogos digitais, especialmente com Unity e C#.
             </p>
             <h1>Habilidades e Competências</h1>
             <div className="details">

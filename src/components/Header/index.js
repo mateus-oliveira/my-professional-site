@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
-import { GoMarkGithub } from 'react-icons/go';
-import { FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { GoMarkGithub,} from 'react-icons/go';
+import { FiLinkedin } from 'react-icons/fi';
+import { FaStackOverflow } from 'react-icons/fa';
 
 import './styles.css';
 
@@ -22,11 +23,11 @@ export default class Header extends Component {
                         <GoMarkGithub color="#FFF" size={22}/>
                     </a>
                     <a 
-                        href='https://www.instagram.com/mateus_oliveira.py/' 
+                        href='https://stackoverflow.com/users/12619605/mateus-alves-de-oliveira ' 
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <FiInstagram color="#FFF" size={22}/>
+                        <FaStackOverflow color="#FFF" size={22}/>
                     </a>
                     <a 
                         href='https://www.linkedin.com/in/mateus-alves-de-oliveira-a60043168/' 
