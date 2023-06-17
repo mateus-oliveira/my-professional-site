@@ -45,7 +45,7 @@ export default class Python extends Component {
                     <h1>Resumo</h1>
                     <p>
                         Python foi a primeira linguagem de programação que aprendi, desde 2017 uso esta linguagem para estudos e trabalhos.
-                        Ainda como estudante, eu desenvolvi um projeto integrador que tinha como objetivo desenvolver simles animações 2D com o módulo Turtle.
+                        Ainda como estudante, eu desenvolvi um projeto integrador que tinha como objetivo desenvolver simples animações 2D com o módulo Turtle.
                         Apesar de simples, foi uma grande forma que tive para aprender lógica de programação e orientação a objetos.
                         Algum tempo depois, comecei a usar Flask e Django já profissionalmente. Hoje em dia, trabalho como desenvolvedor fullstack, e no backend trabalho
                         em projetos que usam Django, Flask e Pyramid. Posso dizer que é a minha linguagem de programação preferida e a que mais domino.

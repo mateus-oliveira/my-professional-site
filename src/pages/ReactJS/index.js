@@ -48,6 +48,7 @@ export default class ReactJS extends Component {
                         Este portfólio fiz com React, por exemplo. Foi meu primeiro framework Javascript para frontend,
                         então posso dizer que é aquele no qual possuo maior segurança.
                         Inicialmente, desenvolvendo de forma mais simples com CSS puro, mas ao longo do tempo me aperfeiçoei para trabalhar também com Tailwind.
+                        Hoje trabalho em projetos que usam ReactJS + Tailwind e VueJS + Vuetify.
                     </p>
                     <h1>Repositórios</h1>
                     <Projects projects={projects} />
