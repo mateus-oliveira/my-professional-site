@@ -1,5 +1,10 @@
 [
     {
+        "title": "Portfólio",
+        "description": "Meu humilde portfólio. Além de desenvolvê-lo com React, também configurei CI/CD com Firebase.",
+        "link": "https://github.com/mateus-oliveira/my-professional-site"
+    },
+    {
         "title": "Friends Gallery",
         "description": "Frontend de uma aplicação que simula uma mini rede social, com ReactJS e Tailwind   .",
         "link": "https://github.com/mateus-oliveira/friends-gallery-web"
@@ -18,10 +23,5 @@
         "title": "Send a Poem",
         "description": "Mobile usando React Native and EXPO par a aplicação Send a Poem, um app de estudos para compartilhamento de poemas.",
         "link": "https://github.com/mateus-oliveira/sendapoem-app"
-    },
-    {
-        "title": "Portfólio",
-        "description": "Meu humilde portfólio.",
-        "link": "https://github.com/mateus-oliveira/my-professional-site"
     }
 ]
