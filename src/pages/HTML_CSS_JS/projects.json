@@ -1,17 +1,17 @@
 [
     {
         "title": "Jogo da memória",
-        "description": "Jogo da memória, a simple memory game about my girlfriend and me, just with pure Javascript, HTML and CSS.",
+        "description": "Um simples jogo da memória feito em Javascript, HTML e CSS.",
         "link": "https://github.com/mateus-oliveira/jogo-da-memoria"
     },
     {
         "title": "Felicidade Clandestina",
-        "description": "Page developed during the technical course that simulates a small virtual book store.",
+        "description": "Página construída ainda no Ensino Médio, simula uma simples loja virtual de livros.",
         "link": "https://github.com/mateus-oliveira/felicidade-clandestina"
     },
     {
         "title": "Hidrocarbonetos",
-        "description": "A simple application that I developed in the technical course that renders image names of hydrocarbon molecules based on information that the user fills in, all with pure Javascript.",
+        "description": "Uma página capaz de desenhar alguns tipos de moléculas orgânicas do tipo hidrocarboneto.",
         "link": "https://github.com/mateus-oliveira/hidrocarbonetos"
     }
 ]

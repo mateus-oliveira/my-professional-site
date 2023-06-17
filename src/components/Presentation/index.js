@@ -11,19 +11,18 @@ export default class Presentation extends Component {
         <div className="presentation">
             <h1>Presentation</h1>
             <p>
-                Mateus Alves de Oliveira is currently a student in the Chemical Engineering 
-                course at UFRN. He is also a Computer Technician trained at the IFRN campus 
-                Parnamirim. At the moment, he works as a programmer at startup Hubbi as a 
-                full stack developer in Javascript. At IFRN, he was a monitor of the 
-                Chemistry disciplines, and with that, he developed a small package with 
-                2D animations with Python turtle.
+                Olá! Meu nome é Mateus e eu sou desenvolvedor web fullstack.
+                Na minha vida acadêmica, estou concluindo o curso superior em Tecnologia da Informação na UFRN.
+                Também sou Técnico em Informática pelo IFRN desde 2017, onde tive meu primeiro contato com desenvolvimento de software.
+                Há 3 anos venho trabalhando com Python no backend e Javascript no fronted web.
+                Sou também um entusiasta do mundo de desenvolvimento de jogos digitais, espeicalmente com Unity e C#.
             </p>
-            <h1>Professional experiences</h1>
+            <h1>Habilidades e Competências</h1>
             <div className="details">
                 <div className="profile-picture">
                     <img src={mateus} alt="Mateus"/>
                     <h2>Mateus Alves de Oliveira</h2>
-                    <h3>Full stack developer</h3>
+                    <h3>Full stack web developer</h3>
                     <a 
                         href='https://drive.google.com/open?id=1npjs5eXFs1xyohcu9IHrn03y6AxGDopL'
                         target='_blank'
@@ -35,15 +34,7 @@ export default class Presentation extends Component {
                 </div>
                 <div className="profesional">
                     <ul>
-                        <h2>Languages and platforms</h2>
-                        <li>HTML5, CSS3 e Javascript</li>
-                        <li>ReactJS</li>
-                        <li>React Native</li>
-                        <ul><li>EXPO</li></ul>
-                        <li>Angular</li>
-                        <ul><li>Type Script</li></ul>
-                        <li>NodeJS</li>
-                        <ul><li>Express</li></ul>
+                        <h2>Principais</h2>
                         <li>Python</li>
                         <ul>
                             <li>Django</li>
@@ -52,35 +43,34 @@ export default class Presentation extends Component {
                             <li>VPython</li>
                             <li>MkDocs</li>
                         </ul>
-                        <li>MySQL</li>
+                        <li>Javascript</li>
                         <ul>
-                            <li>SQL</li>
-                            <li>mysql-connector-python (Python)</li>
-                            <li>flask-mysqldb (Python)</li>
-                            <li>sequelize (NodeJS)</li>
+                            <li>VueJS</li>
+                            <li>ReactJS</li>
+                            <li>React Native</li>
+                            <li>EXPO</li>
+                            <li>Express</li>
                         </ul>
-                        <li>MongoDB</li>
+                        <li>CSS</li>
                         <ul>
-                            <li>pymongo (Python)</li>
-                            <li>mongoose (NodeJS)</li>
+                            <li>Tailwind</li>
+                            <li>Vuetify</li>
+                        </ul>
+                        <li>Database</li>
+                        <ul>
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
                         </ul>
                     </ul>
 
                     <ul>
-                        <h2>Other tools</h2>
-                        <li>VSCode</li>
-                        <li>PyCharm</li>
-                        <li>Android Studio</li>
-                        <li>XCode</li>
-                        <li>Sublime Text</li>
+                        <h2>Outras</h2>
+                        <li>AWS</li>
                         <li>Git</li>
+                        <li>Metodologia SCRUM</li>                          
                         <li>Firebase</li>
-                        <li>Workbench</li>
-                        <li>Robo 3T</li>
-                        <li>Insomnia</li>  
-                        <li>Bitbucket</li>  
-                        <li>Trello</li>
-                        <li>SCRUM</li>                          
+                        <li>Unity + C#</li>
                     </ul>
                 </div>
             </div>

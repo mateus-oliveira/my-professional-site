@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 
 import './styles.css';
 
-import Computer from '../../components/Computer';
 import Presentation from '../../components/Presentation';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -17,7 +16,6 @@ export default class Home extends Component {
         return (
             <div className="container">
                 <Header />
-                <Computer />
                 <Presentation />
                 <Skills />
                 <Footer />

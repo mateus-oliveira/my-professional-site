@@ -16,6 +16,12 @@
     white-space: nowrap;
 }
 
+.languages {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .languages h3{
     width: 100%;
     text-align: center;
@@ -27,7 +33,7 @@
     padding: 10px;
     cursor: pointer;
     border-radius: 8px;
-    background-color: #FFF;
+    background-color: #121212;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: 0.2s;
 }

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './styles.css';
-
 import projects from './projects.json';
 
 import Projects from '../../components/Projects';
@@ -44,7 +42,7 @@ export default class ReactJS extends Component {
             <div className="container">
                 <Header />
                 <div className="experience">
-                    <h1>Resume</h1>
+                    <h1>Resumo</h1>
                     <p>
                         I got to know ReactJS and React Native through materials made 
                         available by Rocketseat. Shortly afterwards I got a job at the 

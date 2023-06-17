@@ -45,11 +45,11 @@ export default class Footer extends Component {
                 <div className="contact">
                     <div className='property'>
                         <div className='icon'><FiPhone color="#FFF" size={22} /></div>
-                        <h2>+55 84 998177501</h2>
+                        <h2>+55 84 994023093</h2>
                     </div>
                     <div className='property'>
                         <div className='icon'><FiMail color="#FFF" size={22} /></div>
-                        <h2>matews5522@gmail.com</h2>
+                        <h2>devmateusalves@gmail.com</h2>
                     </div>
                 </div>
                 <div className="contact_form">

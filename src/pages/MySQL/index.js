@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './styles.css';
-
 import projects from './projects.json';
 
 import Projects from '../../components/Projects';
@@ -44,18 +42,12 @@ export default class MySQL extends Component {
             <div className="container">
                 <Header />
                 <div className="experience">
-                    <h1>Resume</h1>
+                    <h1>Resumo</h1>
                     <p>
-                        I learned SQL in the technical course with another relational bank, 
-                        however, my experience with MySQL started in my first professional 
-                        experience, in which I developed an API with NodeJS accessing the 
-                        MySQL database, I worked deeply on the conceptual model and made 
-                        use of ORM Sequelize and Workbench software. Currently, I use MySQL 
-                        for almost all applications I develop, 
-                        as I appreciate its ease of use and performance.<br />
-                        Below are some examples of using MySQL.
+                        Meu primeiro contato com SQL no curso foi com SQL Server.
+                        Profissionalmente, trabalhei com MySQL alguns anos atrás em uma API com NodeJS e o ORM Sequelize.
                     </p>
-                    <h1>My projects</h1>
+                    <h1>Repositórios</h1>
                     <Projects projects={projects} />
                 </div>
                 <Skills />

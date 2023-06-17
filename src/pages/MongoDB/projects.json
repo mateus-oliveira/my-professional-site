@@ -1,12 +1,12 @@
 [
     {
-        "title": "Connection to Pyhon",
-        "description": "A simple API for register planets data on MongoDB with PyMongo.",
+        "title": "Conexão com Python",
+        "description": "Uma simples conexão com Python e PyMongo.",
         "link": "https://github.com/mateus-oliveira/python-databases-connection/blob/master/mongodb.py"
     },
     {
-        "title": "Connection to NodeJS",
-        "description": "A simple API for register planets data on MongoDB with Mongoose.",
+        "title": "Conexão com NodeJS",
+        "description": "Uma simples conexão com NodeJS e Mongoose.",
         "link": "https://github.com/mateus-oliveira/planets"
     }
 ]

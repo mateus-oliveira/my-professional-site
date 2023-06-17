@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './styles.css';
-
 import projects from './projects.json';
 
 import Projects from '../../components/Projects';
@@ -44,15 +42,12 @@ export default class Node extends Component {
             <div className="container">
                 <Header />
                 <div className="experience">
-                    <h1>Resume</h1>
+                    <h1>Resumo</h1>
                     <p>
-                        I started to study Node using materials made available by Rocketseat. 
-                        Shortly afterwards I got a job at the startup Hubbi as a 
-                        full stack developer, there we used Node throughout the backend, 
-                        with access to MongoDB and MySQL banks. <br/>
-                        Below are some examples of implementing Rest API with NodeJS.
+                        Iniciei no desenvolvimento web com Node a partir de minicursos e workshops da Rocketseat. 
+                        Tive a oportunidade de trabalhar com Node nas empresas Fretec e Hubbi. <br/>
                     </p>
-                    <h1>My projects</h1>
+                    <h1>Repositórios</h1>
                     <Projects projects={projects} />
                 </div>
                 <Skills />

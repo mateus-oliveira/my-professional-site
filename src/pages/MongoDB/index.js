@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './styles.css';
-
 import projects from './projects.json';
 
 import Projects from '../../components/Projects';
@@ -44,15 +42,14 @@ export default class MongoDB extends Component {
             <div className="container">
                 <Header />
                 <div className="experience">
-                    <h1>Resume</h1>
+                    <h1>Resumo</h1>
                     <p>
-                        My experience with MongoDB started when I began the studies with 
-                        NodeJS, in which I used the Mongoose library and the Robo 3T 
-                        software. I currently use MongoDB for route logs in the Fretec 
-                        application API. I also use Mongo DB in the Hubbi application.<br/>
-                        Below are some examples of using MongoDB.
+                        Minha experiência com MongoDB começou quando também comecei a estudar NodeJS.
+                        Tive a oportunidade de usar MongoDB no meu primeiro trabalho como programador,
+                        no qual desenvolvi uma aplicação de delivery.
+                        Atualmente, trabalho com MongoDB na AnchorLoans LP.
                     </p>
-                    <h1>My projects</h1>
+                    <h1>Repositórios</h1>
                     <Projects projects={projects} />
                 </div>
                 <Skills />

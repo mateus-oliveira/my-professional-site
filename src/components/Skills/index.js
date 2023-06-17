@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 
 import './styles.css';
 
-import angular from '../../assets/angular.png';
 import htmlcssjs from '../../assets/htmlcssjs.png';
 import react from '../../assets/react.png';
 import node from '../../assets/node.png';
@@ -13,7 +12,6 @@ import mongodb from '../../assets/mongodb.png';
 
 const languages = [
     htmlcssjs,
-    angular,
     react,
     node,
     python,
@@ -23,7 +21,6 @@ const languages = [
 
 const name_languages = [
     'Html, CSS e JS',
-    'Angular',
     'ReactJS',
     'NodeJS',
     'Python',
@@ -33,7 +30,6 @@ const name_languages = [
 
 const routes = [
     '/html-css-js',
-    '/angular',
     '/react',
     '/node',
     '/python',
@@ -53,6 +49,7 @@ export default class Skills extends Component {
                             alt={name_languages[index]}
                         />
                     </Link>
+                    <strong>{name_languages[index]}</strong>
                 </div>
             )
         })
@@ -60,7 +57,7 @@ export default class Skills extends Component {
     render() {
         return (    
             <div className='skills'>
-                <h1>My skills - click any button</h1>
+                <h1>Projetos pessoais - clique para ver</h1>
                 <div className="images">
                     {this.render_skills()}
                 </div>
