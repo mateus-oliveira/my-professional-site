@@ -41,6 +41,7 @@ const languages = [
         image: unity,
         name: 'Unity',
         route: '/unity',
+        cssClass: 'unity',
     },
 ]
 
@@ -52,7 +53,7 @@ export default class Skills extends Component {
                     <Link to={item.route}>
                         <img 
                             src={item.image} 
-                            className='logos' 
+                            className={`logos ${item.cssClass}`} 
                             alt={item.name}
                         />
                     </Link>
