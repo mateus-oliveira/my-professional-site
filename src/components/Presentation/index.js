@@ -40,9 +40,7 @@ export default class Presentation extends Component {
                         <ul>
                             <li>Django</li>
                             <li>Flask</li>
-                            <li>Turtle</li>
-                            <li>VPython</li>
-                            <li>MkDocs</li>
+                            <li>Pyramid</li>
                         </ul>
                         <li>Javascript</li>
                         <ul>
@@ -50,6 +48,7 @@ export default class Presentation extends Component {
                             <li>ReactJS</li>
                             <li>React Native</li>
                             <li>EXPO</li>
+                            <li>jQuery</li>
                             <li>Express</li>
                         </ul>
                         <li>CSS</li>
