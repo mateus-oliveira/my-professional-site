@@ -1,48 +1,52 @@
 [
     {
-        "title": "Quimanima - Package",
-        "description": "Python turtle animations for high school chemistry.",
+        "title": "Friends Gallery",
+        "description": "Backend de uma aplicação que simula uma mini rede social, com Django e PostgreSQL.",
+        "link": "https://github.com/mateus-oliveira/friends-gallery-api"
+    },
+    {
+        "title": "Quimanima - Pacote",
+        "description": "Animações com Pythom e Turtle para Ensino Médio",
         "link": "https://github.com/quimanima/quimanima/"
     },
     {
-        "title": "Quimanima - MkDocs Documentation",
-        "description": "Documentation with MkDocs for Quimanima.",
+        "title": "Quimanima - Documentação parcial com MkDocs",
+        "description": "Documentação parcial do pacote Quimanima com MkDocs.",
         "link": "https://github.com/quimanima/quimanima-mkdocs"
     },
     {
-        "title": "Quimanima - PDF Documentation",
-        "description": "Documentation for Quimanima.",
+        "title": "Quimanima - Documentação completa em PDF",
+        "description": "Documentação completa do pacote Quimanima, o qual escrevi na minha conclusão do curso de Técnido em Informática.",
         "link": "https://drive.google.com/file/d/1bwkH89lka2IpBHqreC98ZrFlF3p4MGwQ/view?usp=sharing"
     },
     {
         "title": "Send a Poem - API",
-        "description": "Backend for the Send a Poem application with Flask and access MySQL database.",
+        "description": "Backend com Flask e MySQL para uma simples aplicação de compartilhamento de poesias.",
         "link": "https://github.com/mateus-oliveira/sendapoem-api"
     },
     {
         "title": "Gerenciador de Tarefas",
-        "description": "A simple manage tools with Django",
+        "description": "Meu primeiro sistema usando Django, um simples e tradicional gerenciador de tarefas.",
         "link": "https://github.com/mateus-oliveira/gerenciador-de-tarefas"
     },
     {
-        "title": "Python Databases Connections",
-        "description": "Two scripts to show the connection with Python and MongoDB or MySQL.",
+        "title": "Conexões com banco de dados",
+        "description": "Dois scripts que mostram a conexão do Python ao MongoDB ou MySQL.",
         "link": "https://github.com/mateus-oliveira/python-databases-connection"
     },
     {
-        "title": "Python turtle (2D) and vpython (3D) animations",
-        "description": "2D and 3D animations made with Turtle and VPython respectively in a mini course at Secitex 2019.",
+        "title": "Animações com Python turtle (2D) e vpython (3D)",
+        "description": "Código fonte do minicurso que ministrei para estudantes nos períodos iniciais no evento Secitex 2019.",
         "link": "https://github.com/mateus-oliveira/secitex-2019"
     },
     {
-        "title": "3D animations made with the VPython package",
-        "description": "Although simple, they perfectly approach concepts of object-oriented programming. Very good for those who are starting in programming and applied linear algebra.",
+        "title": "Animações 3D com vPython",
+        "description": "Animações 3D interessantes para quem está começando a estudar lógica de programação.",
         "link": "https://github.com/mateus-oliveira/python-vpython"
     },
     {
-        "title": "Several 2D animations made with the Python turtle module.",
-        "description": "Although simple, they perfectly approach concepts of object-oriented programming. Very good for those who are starting in programming.",
+        "title": "Animações 2D com vPython",
+        "description": "Animações 2D interessantes para quem está começando a estudar lógica de programação.",
         "link": "https://github.com/mateus-oliveira/python-turtle"
     }
-
 ]

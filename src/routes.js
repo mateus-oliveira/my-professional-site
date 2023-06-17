@@ -8,8 +8,8 @@ const HTML_CSS_JS  = lazy(()=> import('./pages/HTML_CSS_JS'));
 const ReactJS  = lazy(()=> import('./pages/ReactJS'));
 const Node  = lazy(()=> import('./pages/Node'));
 const Python  = lazy(()=> import('./pages/Python'));
-const MySQL  = lazy(()=> import('./pages/MySQL'));
-const MongoDB  = lazy(()=> import('./pages/MongoDB'));
+const Database  = lazy(()=> import('./pages/Database'));
+const Unity  = lazy(()=> import('./pages/Unity'));
 
 
 export default function Routes(){
@@ -23,8 +23,8 @@ export default function Routes(){
                     <Route path="/react" exact component={ReactJS} />
                     <Route path="/node" exact component={Node} />
                     <Route path="/python" exact component={Python} />
-                    <Route path="/mysql" exact component={MySQL} />
-                    <Route path="/mongodb" exact component={MongoDB} />
+                    <Route path="/database" exact component={Database} />
+                    <Route path="/unity" exact component={Unity} />
                 </Suspense >
             </Switch>
         </BrowserRouter>

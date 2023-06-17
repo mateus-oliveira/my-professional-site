@@ -42,22 +42,16 @@ export default class Python extends Component {
             <div className="container">
                 <Header />
                 <div className="experience">
-                    <h1>Resume</h1>
+                    <h1>Resumo</h1>
                     <p>
-                        Python was the first programming language I actually learned. 
-                        I learned object orientation in this language. With Python, 
-                        I haven't gotten to work professionally yet, however, 
-                        I've developed many things in an academic way, including a 
-                        package called Quimanima and I'm implementing all of its 
-                        documentation with MkDocs with Markdown.
-                        Eventually I present short courses on animations with the libraries
-                        Turtle and VPython. My next goal is to present something about 
-                        Rest API with Flask.<br/>
-                        I always try to update myself in Python, currently, 
-                        I am studying Flask and Django.<br/>
-                        Below are some of my projects with Python.
+                        Python foi a primeira linguagem de programação que aprendi, desde 2017 uso esta linguagem para estudos e trabalhos.
+                        Ainda como estudante, eu desenvolvi um projeto integrador que tinha como objetivo desenvolver simles animações 2D com o módulo Turtle.
+                        Apesar de simples, foi uma grande forma que tive para aprender lógica de programação e orientação a objetos.
+                        Algum tempo depois, comecei a usar Flask e Django já profissionalmente. Hoje em dia, trabalho como desenvolvedor fullstack, e no backend trabalho
+                        em projetos que usam Django, Flask e Pyramid. Posso dizer que é a minha linguagem de programação preferida e a que mais domino.
+                        Tive algumas ligeiras oportunidades também de trabalhar com Pandas em algumas tasks de Data Science, apesar de não ser muito experiente nessa área.
                     </p>
-                    <h1>My projects</h1>
+                    <h1>Repositórios</h1>
                     <Projects projects={projects} />
                 </div>
                 <Skills />

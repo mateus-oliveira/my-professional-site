@@ -7,7 +7,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Skills from '../../components/Skills';
 
-export default class MongoDB extends Component {
+export default class Database extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
@@ -44,10 +44,10 @@ export default class MongoDB extends Component {
                 <div className="experience">
                     <h1>Resumo</h1>
                     <p>
-                        Minha experiência com MongoDB começou quando também comecei a estudar NodeJS.
-                        Tive a oportunidade de usar MongoDB no meu primeiro trabalho como programador,
-                        no qual desenvolvi uma aplicação de delivery.
-                        Atualmente, trabalho com MongoDB na AnchorLoans LP.
+                        Minha experiência com banco de dados começou desde estudos em 2017 à atuação profissional até então.
+                        Minhas primeiras experiências profissionais foi com MySQL. Algum tempo depois, passei a trabalhar em projetos
+                        que utilizam PostgreSQL, o que foi uma fácil adaptação já que achei bem semelhante ao MySQL.
+                        Hoje trabalho em projetos que usam PostgreSQL e MongoDB também.
                     </p>
                     <h1>Repositórios</h1>
                     <Projects projects={projects} />

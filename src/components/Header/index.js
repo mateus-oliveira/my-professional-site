@@ -11,7 +11,7 @@ export default class Header extends Component {
         return (
             <header>
                 <div className="welcome">
-                    <Link className="home" to='/'>Welcome!</Link>
+                    <Link className="home" to='/'>Bem-vind@!</Link>
                 </div>
                 <div className="profiles">
                     <a 
@@ -22,14 +22,14 @@ export default class Header extends Component {
                         <GoMarkGithub color="#FFF" size={22}/>
                     </a>
                     <a 
-                        href='https://www.instagram.com/mateus_if/' 
+                        href='https://www.instagram.com/mateus_oliveira.py/' 
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <FiInstagram color="#FFF" size={22}/>
                     </a>
                     <a 
-                        href='https://www.linkedin.com/in/mateus-alves-a60043168/' 
+                        href='https://www.linkedin.com/in/mateus-alves-de-oliveira-a60043168/' 
                         target="_blank"
                         rel="noopener noreferrer"
                     >

@@ -7,34 +7,41 @@ import htmlcssjs from '../../assets/htmlcssjs.png';
 import react from '../../assets/react.png';
 import node from '../../assets/node.png';
 import python from '../../assets/python.png';
-import mysql from '../../assets/mysql.png';
-import mongodb from '../../assets/mongodb.png';
+import database from '../../assets/database.png';
+import unity from '../../assets/unity.png';
+
 
 const languages = [
-    htmlcssjs,
-    react,
-    node,
-    python,
-    mysql,
-    mongodb,
-];
-
-const name_languages = [
-    'Html, CSS e JS',
-    'ReactJS',
-    'NodeJS',
-    'Python',
-    'MySQL',
-    'MongoDB',
-];
-
-const routes = [
-    '/html-css-js',
-    '/react',
-    '/node',
-    '/python',
-    '/mysql',
-    '/mongodb',
+    {
+        image: python,
+        name: 'Python',
+        route: '/python',
+    },
+    {
+        image: react,
+        name: 'ReactJS',
+        route: '/react',
+    },
+    {
+        image: node,
+        name: 'NodeJS',
+        route: '/node',
+    },
+    {
+        image: database,
+        name: 'Database',
+        route: '/database',
+    },
+    {
+        image: htmlcssjs,
+        name: 'HTML, CSS e JS',
+        route: '/html-css-js',
+    },
+    {
+        image: unity,
+        name: 'Unity',
+        route: '/unity',
+    },
 ]
 
 export default class Skills extends Component {
@@ -42,14 +49,14 @@ export default class Skills extends Component {
         return languages.map((item, index) => {
             return (
                 <div key={index} className="languages">    
-                    <Link to={routes[index]}>
+                    <Link to={item.route}>
                         <img 
-                            src={item} 
+                            src={item.image} 
                             className='logos' 
-                            alt={name_languages[index]}
+                            alt={item.name}
                         />
                     </Link>
-                    <strong>{name_languages[index]}</strong>
+                    <strong>{item.name}</strong>
                 </div>
             )
         })

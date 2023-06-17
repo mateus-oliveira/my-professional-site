@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Friends Gallery",
+        "description": "Backend de uma aplicação que simula uma mini rede social, com Django e PostgreSQL.",
+        "link": "https://github.com/mateus-oliveira/friends-gallery-api"
+    },{
+        "title": "Conexão entre MongoDb e Python",
+        "description": "Uma simples conexão com Python e PyMongo.",
+        "link": "https://github.com/mateus-oliveira/python-databases-connection/blob/master/mongodb.py"
+    },
+    {
+        "title": "Conexão entre MongoDB e NodeJS",
+        "description": "Uma simples conexão com NodeJS e Mongoose.",
+        "link": "https://github.com/mateus-oliveira/planets"
+    },
+    {
+        "title": "Conexão entre MySQL e Python",
+        "description": "Uma simples forma de conectar o Python com MySQL.",
+        "link": "https://github.com/mateus-oliveira/python-databases-connection/blob/master/my_sql.py"
+    },
+    {
+        "title": "Send a Poem",
+        "description": "Uma API em Python + Flask que acessa o MySQL.",
+        "link": "https://github.com/mateus-oliveira/sendapoem-api"
+    },
+    {
+        "title": "Semana Omnistack 11",
+        "description": "Workshop da Rocketseat, no qual desenvolvemos uma pequena aplicação com Node e MySQL, ReactJS e React Native.",
+        "link": "https://github.com/mateus-oliveira/omnistack11/tree/master/backend"
+    }
+]

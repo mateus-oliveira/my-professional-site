@@ -7,7 +7,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Skills from '../../components/Skills';
 
-export default class MySQL extends Component {
+export default class Unity extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
@@ -44,8 +44,7 @@ export default class MySQL extends Component {
                 <div className="experience">
                     <h1>Resumo</h1>
                     <p>
-                        Meu primeiro contato com SQL no curso foi com SQL Server.
-                        Profissionalmente, trabalhei com MySQL alguns anos atrás em uma API com NodeJS e o ORM Sequelize.
+                        Como sou alguém que gosta de aprender coisas novas, estou estudando Unity + C# para desenvolvimento de Jogos Digitais.
                     </p>
                     <h1>Repositórios</h1>
                     <Projects projects={projects} />

@@ -1,27 +1,27 @@
 [
     {
+        "title": "Friends Gallery",
+        "description": "Frontend de uma aplicação que simula uma mini rede social, com ReactJS e Tailwind   .",
+        "link": "https://github.com/mateus-oliveira/friends-gallery-web"
+    },
+    {
         "title": "Semana Omnistack 11 - Web",
-        "description": "Frontend with ReactJS for the Be The Hero application created at Rocketseat's workshop.",
+        "description": "Frontend usando ReactJS para a aplicação Be The Hero, uma simples aplicação feita em um workshop da Rocketseat.",
         "link": "https://github.com/mateus-oliveira/omnistack11/tree/master/frontend"
     },
     {
         "title": "Semana Omnistack 11 - Mobile",
-        "description": "Mobile with React Native and EXPO for the Be The Hero application created at Rocketseat's workshop.",
+        "description": "Mobile usando React Native para a aplicação Be The Hero, uma simples aplicação feita em um workshop da Rocketseat.",
         "link": "https://github.com/mateus-oliveira/omnistack11/tree/master/mobile"
     },
     {
         "title": "Send a Poem",
-        "description": "Mobile with React Native and EXPO for the Send a Poem application.",
+        "description": "Mobile usando React Native and EXPO par a aplicação Send a Poem, um app de estudos para compartilhamento de poemas.",
         "link": "https://github.com/mateus-oliveira/sendapoem-app"
     },
     {
-        "title": "MapBox with React Native",
-        "description": "A simple MapBox component with React Native.",
-        "link": "https://github.com/mateus-oliveira/map-box-react-native"
-    },
-    {
-        "title": "My professional site",
-        "description": "This site when you are, for show my skills and experiences",
+        "title": "Portfólio",
+        "description": "Meu humilde portfólio.",
         "link": "https://github.com/mateus-oliveira/my-professional-site"
     }
 ]

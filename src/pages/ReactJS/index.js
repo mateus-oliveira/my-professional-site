@@ -44,15 +44,12 @@ export default class ReactJS extends Component {
                 <div className="experience">
                     <h1>Resumo</h1>
                     <p>
-                        I got to know ReactJS and React Native through materials made 
-                        available by Rocketseat. Shortly afterwards I got a job at the 
-                        startup Hubbi as a full stack developer, there we used React Native. 
-                        We are currently developing two applications and also a web version 
-                        with ReactJS.<br/>
-                        In addition, I also developed other applications with ReactJS and
-                        React Native, including this website. Below are some examples.
+                        Já usei com React em diversos projetos, desde projetos pessoais de estudo a trabalhos profissionais.
+                        Este portfólio fiz com React, por exemplo. Foi meu primeiro framework Javascript para frontend,
+                        então posso dizer que é aquele no qual possuo maior segurança.
+                        Inicialmente, desenvolvendo de forma mais simples com CSS puro, mas ao longo do tempo me aperfeiçoei para trabalhar também com Tailwind.
                     </p>
-                    <h1>My projects</h1>
+                    <h1>Repositórios</h1>
                     <Projects projects={projects} />
                 </div>
                 <Skills />

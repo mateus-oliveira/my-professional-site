@@ -9,11 +9,12 @@ export default class Presentation extends Component {
   render() {
     return (
         <div className="presentation">
-            <h1>Presentation</h1>
+            <h1>Apresentação</h1>
             <p>
                 Olá! Meu nome é Mateus e eu sou desenvolvedor web fullstack.
                 Na minha vida acadêmica, estou concluindo o curso superior em Tecnologia da Informação na UFRN.
-                Também sou Técnico em Informática pelo IFRN desde 2017, onde tive meu primeiro contato com desenvolvimento de software.
+                Também sou Técnico em Informática pelo IFRN no qual me formei em 2017,
+                onde tive meu primeiro contato com desenvolvimento de software.
                 Há 3 anos venho trabalhando com Python no backend e Javascript no fronted web.
                 Sou também um entusiasta do mundo de desenvolvimento de jogos digitais, espeicalmente com Unity e C#.
             </p>
@@ -68,9 +69,11 @@ export default class Presentation extends Component {
                         <h2>Outras</h2>
                         <li>AWS</li>
                         <li>Git</li>
+                        <li>Unity + C#</li>
+                        <li>Pixel Art</li>
+                        <li>Redis</li>
                         <li>Metodologia SCRUM</li>                          
                         <li>Firebase</li>
-                        <li>Unity + C#</li>
                     </ul>
                 </div>
             </div>
