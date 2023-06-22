@@ -30,7 +30,7 @@ export default class Header extends Component {
                         <FaStackOverflow color="#FFF" size={22}/>
                     </a>
                     <a 
-                        href='https://www.linkedin.com/in/mateus-alves-de-oliveira-a60043168/' 
+                        href='https://www.linkedin.com/in/mateusalvesdeoliveira/' 
                         target="_blank"
                         rel="noopener noreferrer"
                     >
