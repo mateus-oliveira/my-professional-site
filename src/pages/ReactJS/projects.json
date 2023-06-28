@@ -5,6 +5,11 @@
         "link": "https://github.com/mateus-oliveira/my-professional-site"
     },
     {
+        "title": "Afiliados",
+        "description": "Frontend de uma aplicação para um simples tratamento de dados, com Docker Compose, React, Next, TypeScript and Tailwind.",
+        "link": "https://github.com/mateus-oliveira/fullstack-afiliados-frontend"
+    },
+    {
         "title": "Friends Gallery",
         "description": "Frontend de uma aplicação que simula uma mini rede social, com ReactJS e Tailwind   .",
         "link": "https://github.com/mateus-oliveira/friends-gallery-web"

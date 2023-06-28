@@ -1,5 +1,10 @@
 [
     {
+        "title": "Afiliados",
+        "description": "Backend de uma aplicação para um simples tratamento de dados, com Docker Compose, Django e PostgreSQL.",
+        "link": "https://github.com/mateus-oliveira/fullstack-afiliados-backend"
+    },
+    {
         "title": "Friends Gallery",
         "description": "Backend de uma aplicação que simula uma mini rede social, com Django e PostgreSQL.",
         "link": "https://github.com/mateus-oliveira/friends-gallery-api"
