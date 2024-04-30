@@ -15,7 +15,7 @@ export default class Presentation extends Component {
                 Estou concluindo o curso superior em Tecnologia da Informação na UFRN.
                 Também sou Técnico em Informática pelo IFRN no qual me formei em 2017,
                 onde tive meu primeiro contato com desenvolvimento de software.
-                Há 3 anos venho trabalhando com Python no backend e Javascript no frontend web.
+                Há 4 anos venho trabalhando com Python no backend e Javascript no frontend web.
                 Sou também um entusiasta do mundo de desenvolvimento de jogos digitais, especialmente com Unity e C#.
             </p>
             <h1>Habilidades e Competências</h1>
@@ -47,7 +47,6 @@ export default class Presentation extends Component {
                             <li>VueJS</li>
                             <li>ReactJS</li>
                             <li>React Native</li>
-                            <li>EXPO</li>
                             <li>jQuery</li>
                             <li>Express</li>
                         </ul>
@@ -62,14 +61,18 @@ export default class Presentation extends Component {
                             <li>MongoDB</li>
                             <li>MySQL</li>
                         </ul>
+                        <li>Game Development</li>
+                        <ul>
+                            <li>Unity + C#</li>
+                            <li>IA para jogos</li>
+                            <li>Pixel Art</li>
+                        </ul>
                     </ul>
 
                     <ul>
                         <h2>Outras</h2>
                         <li>AWS</li>
                         <li>Git</li>
-                        <li>Unity + C#</li>
-                        <li>Pixel Art</li>
                         <li>Redis</li>
                         <li>Metodologia SCRUM</li>                          
                         <li>Firebase</li>

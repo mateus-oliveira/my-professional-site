@@ -1,17 +1,32 @@
 [
     {
+        "title": "Itch Io",
+        "description": "Acesse meu perfil no itch.io para ver os joguinhos que desenvolvi.",
+        "link": "https://mateus-oliveiracs.itch.io/"
+    },
+    {
+        "title": "Luto",
+        "description": "Jogo desenvolvido com Unity+C# para a EpoJam 2023.",
+        "link": "https://mateus-oliveiracs.itch.io/luto"
+    },
+    {
         "title": "Sadness",
         "description": "Jogo desenvolvido com Unity+C# para a GMTK Game Jam 2023.",
         "link": "https://mateus-oliveiracs.itch.io/sadness"
     },
     {
+        "title": "Survivor",
+        "description": "Joguinho desenvolvido com Unity+C# para a disciplina de IA para jogos. Que consiste em um player e NPCs controlados por Finite State Machine.",
+        "link": "https://mateus-oliveiracs.itch.io/survivor"
+    },
+    {
         "title": "Cárcere",
-        "description": "Palinha de um pequeno jogo que estou desenvolvento com Unity, desde o Pixel Art à linha de código.",
+        "description": "Palinha de um pequeno nível que desenvolvi com Unity, desde o Pixel Art à linha de código.",
         "link": "https://drive.google.com/file/d/1_8Ab-QqQ511w7gfCXF5yCp9xxvjX4lF3/view?usp=sharing"
     },
     {
         "title": "Pixel Art da Terra",
-        "description": "Treinando Pixel Art, fiz uma animação da rotação da Terra.",
+        "description": "Treinando Pixel Art: uma animação da rotação da Terra.",
         "link": "https://drive.google.com/file/d/13U2rCtzM-39cLZk9q2_N1nssVf_vanyB/view?usp=sharing"
     }
 ]
