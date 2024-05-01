@@ -24,8 +24,8 @@ export default class Presentation extends Component {
                     <img src={mateus} alt="Mateus"/>
                     <h2>Mateus Alves de Oliveira</h2>
                     <h3>Full stack web developer</h3>
-                    <a 
-                        href='https://drive.google.com/open?id=1npjs5eXFs1xyohcu9IHrn03y6AxGDopL'
+                    <a
+                        href='https://docs.google.com/document/d/1Awjpw-yuCo8H-QxuqUtkyxc2VSDD_qiz/edit?usp=sharing&ouid=113958996693686294050&rtpof=true&sd=true'
                         target='_blank'
                         rel="noopener noreferrer"
                     >
@@ -36,6 +36,12 @@ export default class Presentation extends Component {
                 <div className="profesional">
                     <ul>
                         <h2>Principais</h2>
+                        <li>Game Development</li>
+                        <ul>
+                            <li>Unity + C#</li>
+                            <li>IA para jogos</li>
+                            <li>Pixel Art</li>
+                        </ul>
                         <li>Python</li>
                         <ul>
                             <li>Django</li>
@@ -60,12 +66,6 @@ export default class Presentation extends Component {
                             <li>PostgreSQL</li>
                             <li>MongoDB</li>
                             <li>MySQL</li>
-                        </ul>
-                        <li>Game Development</li>
-                        <ul>
-                            <li>Unity + C#</li>
-                            <li>IA para jogos</li>
-                            <li>Pixel Art</li>
                         </ul>
                     </ul>
 
